@@ -35,8 +35,6 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/honestworkdao/honestwork-docs/',
         },
@@ -67,7 +65,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'User Documentation',
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -78,7 +76,6 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
         links: [
           {
             title: 'Docs',
@@ -87,41 +84,53 @@ const config = {
                 label: 'Tutorial',
                 to: '/',
               },
+
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'HonestWork Platform',
+                href: 'https://honestwork.app',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/vP6R5unDBF',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/honestworkdao',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Repositories',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Frontend',
+                href: 'https://github.com/honestworkdao/honestwork-app',
+              },
+              {
+                label: 'API',
+                href: 'https://github.com/honestworkdao/honestwork-api',
+              },
+              {
+                label: 'Contracts',
+                href: 'https://github.com/honestworkdao/honestwork-contracts',
+              },
+              {
+                label: 'Docs',
+                href: 'https://github.com/honestworkdao/honestwork-docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} HonestWorkDAO`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-
       },
     }),
 };
