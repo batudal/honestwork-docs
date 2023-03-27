@@ -6,7 +6,7 @@ sidebar_position: 2
 ### Who can enlist jobs?
 Although it is possible to enlist job posts without having the membership, as a member you can also accumulate any generated revenue through our smart contracts.
 
-HonestWork is committed to decentralization and it's quite possible we will have an [airdrop](../decentralization/airdrop.md) in the future that will be based on revenue and activity. Further, we plan on bringing features like `Projects` to serve multi-role users.
+HonestWork is committed to decentralization and it's quite possible we will have a token airdrop in the future that will be based on revenue and activity. Further, we plan on bringing features like `Projects` to serve multi-role users.
 
 ### Job listings & agreements
 
