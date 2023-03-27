@@ -78,22 +78,25 @@ const config = {
       footer: {
         links: [
           {
-            title: 'Docs',
+            title: 'HonestWorkDAO',
             items: [
               {
-                label: 'Tutorial',
+                label: 'User Documentation',
                 to: '/',
               },
-
+              {
+                label: 'Application',
+                to: '/',
+              },
+              {
+                label: 'Blog',
+                to: '/',
+              },
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'HonestWork Platform',
-                href: 'https://honestwork.app',
-              },
               {
                 label: 'Discord',
                 href: 'https://discord.gg/vP6R5unDBF',
@@ -101,6 +104,10 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/honestworkdao',
+              },
+              {
+                label: 'Reddit',
+                href: 'https://discord.gg/vP6R5unDBF',
               },
             ],
           },
