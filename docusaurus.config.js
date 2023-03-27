@@ -86,11 +86,11 @@ const config = {
               },
               {
                 label: 'Application',
-                to: '/',
+                to: 'https://honestwork.app',
               },
               {
                 label: 'Blog',
-                to: '/',
+                to: 'https://medium.com/@honestworkdao',
               },
             ],
           },
