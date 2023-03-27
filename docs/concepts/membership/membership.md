@@ -8,7 +8,7 @@ Introducing **HonestWork Genesis NFT** - the ultimate freelancer membership to o
 
 What's more, HonestWork Genesis also records your revenue on the blockchain, enabling you to earn future airdrops based on your performance. Join HonestWork today and take your freelancing career to the next level!
 
-See the genesis collection on [Opensea](https://opensea.io/collection/honestwork-genesis "Genesis Collection").
+Visit [honestwork.app/mint](https://honestwork.app/mint) to mint a new one or upgrade existing 😎
 
 ## Platform utilities
 
@@ -28,9 +28,8 @@ In the table below, you can see the limits of each tier. In short words;
 
 ## Revenue accumulation
 
-HonestWork indexer tracks all revenue generation via contracts. Aggregated values are reflected on NFT metadata. This mechanic exists to capture value created on the platform and correlate it with an on-chain asset. 
-
-This reflective data will help us design an airdrop campaign on our way to complete decentralization.
+HonestWork indexer tracks all revenue generation via contracts. Aggregated values are reflected on NFT metadata. This
+mechanic exists to **_capture value created on the platform_** and correlate it with an **_on-chain asset_** and help us design an airdrop campaign on our way to complete decentralization.
 
 Example metadata of a tier 3 member who made total of $5000 on HonestWork;
 ```json title="honestwork-genesis-nft/metadata"
@@ -56,10 +55,12 @@ Example metadata of a tier 3 member who made total of $5000 on HonestWork;
 
 
 ## AI generated visuals
-NFT visuals are generated with same exact prompt but different seeds on MidJourney. 
-Only 1000 is generated so far since it's not clear if we will introduce a new membership model in the future.
+Genesis NFT is the first on-chain asset of HonestWork. It's deployed on Ethereum Mainnet and verified. 
 
-Below is a selection of NFT's that are not yet minted. Visit [minting page](https://honestwork.app/mint) to mint one 😎
+NFT visuals are generated with same exact prompt but different seeds on MidJourney. 
+Only 1000 unique visuals are generated so far since it's not clear if we will introduce a new membership model in the future and hardcap this collection.
+
+Below is a selection of NFT's that are not yet minted. See the genesis collection on [opensea.io/honestwork-genesis](https://opensea.io/collection/honestwork-genesis "Genesis Collection").
 
 ![](https://honestwork-userfiles.fra1.cdn.digitaloceanspaces.com/docs_nft.png)
 

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Honestwork Docs',
+  title: 'Honestwork',
   tagline: 'Web3 Freelancer Platform',
   favicon: 'img/favicon.png',
 
@@ -55,7 +55,7 @@ const config = {
         defaultMode: 'dark'
       },
       navbar: {
-        title: 'HonestWork Docs',
+        title: 'HonestWork',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon.png',
