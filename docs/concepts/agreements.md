@@ -16,6 +16,23 @@ After the initial transaction, a recruiter can follow with any amount of unlocks
 
 Weight averaged aggregating ratings are displayed on the platform and used primarily for reputation.
 
+### Binding listings with agreements
+
+Job listing and on-chain agreements are detached systems. Anyone can link a their job id to the deal. This is important because it enables the freelancer to show this job on their `Job History`. 
+
+```javascript
+function createDeal(
+        ...
+        uint256 _recruiterNFTId,
+        uint256 _jobId,
+        bytes memory _signature
+    ) 
+```
+
+Once a job post has been attached to a deal. It is consumed by the indexer and gets `Taken` status on the platform.
+After this point even if a recruiter points to this job listing while making a deal, it won't be listed on creators
+history.
+
 ## Dispute Resolution
 Although HonestWork tries to ensure every deal goes smoothly but that's not always the case. That's why we use [XMTP](https://xmtp.org) (Extensible Message Transport Protocol) which is an open protocol, network, and standards for secure, private web3 messaging.
 

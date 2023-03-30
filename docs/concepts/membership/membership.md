@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# NFT Membership 
+# Creators 
 
-Introducing **HonestWork Genesis NFT** - the ultimate freelancer membership to our platform. AI-generated visuals and 3 tiers to choose from make your NFT a unique key to unlock access to HonestWork features and benefits. 
+Creators are holders of **HonestWork Genesis NFT** that unlocks access to HonestWork features and benefits. 
 
-What's more, HonestWork Genesis also records your revenue on the blockchain, enabling you to earn future airdrops based on your performance. Join HonestWork today and take your freelancing career to the next level!
+HonestWork Genesis NFTs also record your revenue on the blockchain, enabling you to earn future airdrops based on your performance.
 
 Visit [honestwork.app/mint](https://honestwork.app/mint) to mint a new one or upgrade existing 😎
 
