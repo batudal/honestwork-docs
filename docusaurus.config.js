@@ -49,7 +49,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      algolia: {
+        appId: 'CLPBWKEI7P',
+        apiKey: '5d20fa5c5cd17d0d9142ba333f5a04dd',
+        indexName: 'honestwork',
+        contextualSearch: true,
+        externalUrlRegex: 'external\\.com|domain\\.com',
+        replaceSearchResultPathname: {
+          from: '/docs/',
+          to: '/',
+        },
+        searchPagePath: 'search',
+      },
       image: 'img/social.png',
       colorMode: {
         defaultMode: 'dark'
@@ -67,7 +78,6 @@ const config = {
             position: 'left',
             label: 'User Documentation',
           },
-          // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/honestworkdao',
             label: 'GitHub',
