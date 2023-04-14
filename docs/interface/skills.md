@@ -22,6 +22,6 @@ Details section is for all the what-nots of the selected skills. You can scroll 
 
 ![Details Section](./images/skills-details.png)
 
-- At the top, you'll find creator name and title.
+- At the top, you'll find creator name and title. This bar is also an external link to creator profile.
 - In the middle, you'll find the image gallery which takes up to 8 images.
 - Finally, description and external links follow.
